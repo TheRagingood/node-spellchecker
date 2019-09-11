@@ -54,3 +54,11 @@ When using Hunspell, this will not modify the .dic file; new words must be added
 `word` - String word to add.
 
 Returns nothing.
+
+## Prebuilding
+
+Building for a specific Electron version:
+
+```
+./node_modules/.bin/prebuild -t 5.0.10 -r electron
+```
